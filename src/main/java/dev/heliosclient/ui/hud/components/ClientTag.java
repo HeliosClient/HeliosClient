@@ -9,7 +9,7 @@ public class ClientTag extends HUDComponent {
     private MinecraftClient mc = MinecraftClient.getInstance();
 
     public ClientTag() {
-        super(2, 2, true, "Client Tag", false ,false);
+        super("Client Tag",2, 2, true, false ,false);
     }
 
     @Override

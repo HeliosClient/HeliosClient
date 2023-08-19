@@ -10,7 +10,7 @@ public class Ping extends HUDComponent {
     private MinecraftClient mc = MinecraftClient.getInstance();
 
     public Ping() {
-        super(2, 22,  true, "Ping", false ,false);
+        super("Ping",2, 22,  true,  false ,false);
     }
 
     @Override

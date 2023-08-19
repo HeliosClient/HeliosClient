@@ -10,7 +10,7 @@ public class FPS extends HUDComponent {
     private MinecraftClient mc = MinecraftClient.getInstance();
 
     public FPS() {
-        super(2,12, true, "FPS",false ,false);
+        super("FPS",2,12, true, false ,false);
     }
 
     @Override

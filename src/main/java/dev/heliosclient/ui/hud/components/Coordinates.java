@@ -11,7 +11,7 @@ public class Coordinates extends HUDComponent {
     private MinecraftClient mc = MinecraftClient.getInstance();
 
     public Coordinates() {
-        super(2,10, true, "Coordinates", false ,true);
+        super("Coordinates",2,10, true,  false ,true);
     }
 
 

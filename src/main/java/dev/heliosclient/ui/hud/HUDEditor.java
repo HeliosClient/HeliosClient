@@ -78,8 +78,5 @@ public class HUDEditor extends Screen {
         return super.mouseDragged(mouseX, mouseY, button, deltaX, deltaY);
     }
 
-
-
-
 }
 

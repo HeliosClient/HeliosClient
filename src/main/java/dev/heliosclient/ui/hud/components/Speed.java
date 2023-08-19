@@ -14,7 +14,7 @@ public class Speed extends HUDComponent {
 
     public Speed() {
 
-        super(2, 20,true, "Speed", false, true);
+        super("Speed",2, 20,true,  false, true);
     }
 
     @Override
